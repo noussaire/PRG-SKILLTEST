@@ -1,0 +1,121 @@
+import demo from "./adaptive-demo.json";
+export type HomeLanguage = "fr" | "ar";
+const text = (fr: string, ar: string) => ({ fr, ar });
+export const homeContent = {
+    association: text("Association Chabab Connect", "جمعية شباب كونكت"),
+    institution: text("Apprendre. Développer. Explorer. Agir.", "تعلّم. طوّر. استكشف. اترك أثرا."),
+    navLabel: text("Navigation principale", "القائمة الرئيسية"),
+    skip: text("Aller au contenu", "الانتقال إلى المحتوى"),
+    start: text("Commencer le test", "بدء الاختبار"),
+    howLink: text("Voir comment ça marche", "اكتشف كيف يعمل"),
+    nav: [
+        { href: "/#association", label: text("L’association", "الجمعية") },
+        { href: "/#comment-ca-marche", label: text("Le parcours", "المسار") },
+        { href: "/#competences", label: text("Les compétences", "المهارات") },
+    ],
+    hero: {
+        title: text("Vos choix, votre voie.", "اختياراتك، طريقك."),
+        intro: text("Explorez 31 soft skills à travers des situations qui s’adaptent à vos décisions. Repartez avec un rapport personnel pour avancer.", "استكشف 31 مهارة شخصية من خلال مواقف تتكيف مع قراراتك. واحصل على تقرير شخصي يساعدك على التقدم."),
+        reassurance: [text("Gratuit", "مجاني"), text("Français & arabe", "بالفرنسية والعربية"), text("Sans carte bancaire", "بدون بطاقة بنكية")],
+        preview: text("Aperçu du test de soft skills", "نظرة على اختبار المهارات الشخصية"),
+        stage: text("Une situation, votre décision.", "موقف واحد، وقرارك أنت."),
+        question: demo.question,
+        example: text("Exemple de parcours", "مثال من المسار"),
+        next: text("La suite dépend de votre choix", "الخطوة التالية تعتمد على اختيارك"),
+        pause: text("Mettre en pause", "إيقاف الحركة"),
+        play: text("Animer l’aperçu", "تشغيل الحركة"),
+        imageAlt: text("Conséquence d’un choix dans SkillQuest", "نتيجة اختيار في مسار SkillQuest"),
+    },
+    stats: [
+        { value: 31, label: text("compétences à explorer", "مهارة للاستكشاف") },
+        { value: 2, label: text("langues, un même parcours", "لغتان، والمسار نفسه") },
+        { value: 4, label: text("choix par situation", "اختيارات في كل موقف") },
+        { value: 7, label: text("jours pour reprendre", "أيام لاستئناف المسار") },
+    ],
+    statsLabel: text("Le parcours en chiffres", "المسار بالأرقام"),
+    about: {
+        title: text("Apprendre à se connaître.", "لتعرف نفسك أكثر."),
+        body: text("SkillQuest est une initiative de Chabab Connect. Une conviction la guide : les compétences se découvrent aussi dans la manière d’écouter, de coopérer et de prendre une décision.", "SkillQuest مبادرة من جمعية شباب كونكت، تقوم على قناعة بأن المهارات تُكتشف أيضا من خلال طريقة الإنصات والتعاون واتخاذ القرار."),
+        mission: text("Mettre la réflexion en mouvement.", "لنحوّل التأمل إلى خطوات."),
+        detail: text("Nous proposons un espace pédagogique pour explorer ses choix, mettre des mots sur ses réflexes et trouver une prochaine action à essayer. Avec un parcours accessible en français comme en arabe.", "نقترح فضاء تربويا لاستكشاف اختياراتك وفهم أساليب تصرفك وتحديد خطوة جديدة لتجربتها، من خلال مسار متاح بالفرنسية والعربية."),
+        signature: text("Learn · Develop · Explore · Impact", "تعلّم · طوّر · استكشف · اترك أثرا"),
+        visualAlt: text("Une compétence et ses conseils dans le rapport SkillQuest", "مهارة ونصائحها في تقرير SkillQuest"),
+    },
+    how: {
+        title: text("Un choix ouvre la suite.", "اختيار يفتح الخطوة التالية."),
+        intro: text("Un fil simple relie les situations. Vos réponses donnent du contexte ; le parcours couvre les 31 compétences une fois chacune.", "خيط واضح يربط المواقف. تمنح إجاباتك سياقا للخطوة التالية، ويغطي المسار المهارات الـ31 مرة واحدة لكل مهارة."),
+        steps: [
+            { title: text("Choisir", "اختر"), body: text("Sélectionnez l’action qui se rapproche de ce que vous feriez.", "حدّد التصرف الأقرب إلى ما ستفعله في هذا الموقف.") },
+            { title: text("Voir la conséquence", "اكتشف النتيجة"), body: text("Découvrez ce que votre décision déclenche dans la simulation.", "اكتشف ما ينتج عن قرارك داخل المحاكاة.") },
+            { title: text("Poursuivre", "تابع المسار"), body: text("Une nouvelle situation prolonge le contexte de votre réponse.", "موقف جديد يواصل السياق الذي صنعته إجابتك.") },
+            { title: text("Recevoir son rapport", "احصل على تقريرك"), body: text("Retrouvez vos repères et des conseils après la 31e réponse.", "بعد الإجابة الـ31، اطّلع على مؤشراتك ونصائح عملية.") },
+        ],
+    },
+    demo: {
+        title: text("À vous de choisir.", "الاختيار لك."),
+        intro: text("Essayez une situation réelle du parcours. Observez comment une autre réponse change la suite.", "جرّب موقفا فعليا من المسار، ولاحظ كيف يؤدي تغيير الإجابة إلى خطوة تالية مختلفة."),
+        window: text("SkillQuest · Démonstration", "SkillQuest · تجربة توضيحية"),
+        legend: text("Votre choix dans la simulation", "اختيارك في المحاكاة"),
+        result: text("Ce que votre choix déclenche", "ما يحدث بعد اختيارك"),
+        next: text("La situation suivante", "الموقف التالي"),
+        hint: text("Choisissez une action pour découvrir la suite.", "اختر تصرفا لاكتشاف الخطوة التالية."),
+        note: text("Cette démonstration n’est pas enregistrée dans votre rapport.", "هذه تجربة توضيحية؛ لا تُحفظ ولا تدخل في تقريرك."),
+    },
+    report: {
+        title: text("Un bilan pour avancer.", "تقرير يساعدك على التقدم."),
+        intro: text("Vos décisions prennent la forme d’un document personnel : des repères, leur contexte et une prochaine étape concrète.", "تتحول قراراتك إلى وثيقة شخصية تتضمن مؤشرات وسياقها وخطوة عملية تالية."),
+        alt: text("Exemple de synthèse personnelle dans le rapport SkillQuest", "مثال لخلاصة شخصية في تقرير SkillQuest"),
+        caption: text("Aperçu illustratif d’un rapport, sans données de participant réel.", "مثال توضيحي لتقرير، دون بيانات مشارك حقيقي."),
+        benefits: [
+            { title: text("Vos choix en contexte", "اختياراتك في سياقها"), body: text("Chaque indicateur est relié au scénario et à votre réponse.", "كل مؤشر مرتبط بالموقف وبإجابتك عنه.") },
+            { title: text("Des actions à essayer", "خطوات لتجربتها"), body: text("Des conseils concrets à tester dans un prochain projet.", "نصائح عملية يمكنك اختبارها في مشروعك القادم.") },
+            { title: text("Un document à garder", "وثيقة تحتفظ بها"), body: text("Un bilan immédiat, imprimable en PDF ; une synthèse IA peut l’enrichir ensuite.", "تقرير فوري قابل للطباعة بصيغة PDF، وقد تُضاف إليه خلاصة بالذكاء الاصطناعي لاحقا.") },
+        ],
+    },
+    skills: {
+        title: text("31 compétences. Quatre regards.", "31 مهارة. أربع زوايا."),
+        intro: text("Choisissez une famille pour découvrir les compétences explorées. Ces regroupements facilitent la lecture du parcours.", "اختر مجموعة لاكتشاف المهارات التي يستكشفها المسار. تساعد هذه المجموعات على تنظيم القراءة."),
+        tabs: text("Familles de compétences", "مجموعات المهارات"),
+        count: text("compétences", "مهارات"),
+        families: [
+            { id: "communicate", label: text("Communiquer", "التواصل"), description: text("Écouter, exprimer une idée et comprendre l’autre.", "الإنصات والتعبير عن الأفكار وفهم الآخر."), ids: ["communication", "ecoute-active", "assertivite", "empathie", "negociation", "influence", "prise-parole"] },
+            { id: "think", label: text("Réfléchir", "التفكير"), description: text("Prendre du recul, questionner et construire une réponse.", "التأمل والتساؤل وبناء استجابة مناسبة."), ids: ["intelligence-emotionnelle", "conscience-soi", "creativite", "esprit-critique", "resolution-problemes", "prise-decision", "apprentissage-continu", "curiosite"] },
+            { id: "cooperate", label: text("Coopérer", "التعاون"), description: text("Créer des liens et avancer avec les autres.", "بناء الروابط والتقدم مع الآخرين."), ids: ["travail-equipe", "collaboration", "leadership", "gestion-conflits", "inclusion", "ethique"] },
+            { id: "act", label: text("Agir", "المبادرة"), description: text("S’organiser, s’adapter et mener une action jusqu’au bout.", "التنظيم والتكيف ومتابعة العمل حتى إنجازه."), ids: ["gestion-stress", "resilience", "adaptabilite", "gestion-temps", "organisation", "planification", "autonomie", "initiative", "responsabilite", "fiabilite"] },
+        ],
+    },
+    audience: {
+        title: text("À chacun son point de départ.", "لكلّ نقطة انطلاقه."),
+        items: [
+            { title: text("Étudiants & jeunes adultes", "الطلبة والشباب البالغون"), body: text("Mieux comprendre ses choix et préparer ses prochains projets, études ou expériences professionnelles.", "فهم اختياراتك بشكل أفضل والاستعداد لمشاريعك ودراستك وتجاربك المهنية القادمة.") },
+            { title: text("Enseignants & encadrants", "الأساتذة والمؤطرون"), body: text("Ouvrir une discussion pédagogique à partir de situations concrètes et d’un rapport contextualisé.", "فتح نقاش تربوي انطلاقا من مواقف ملموسة وتقرير يراعي سياق الإجابات.") },
+            { title: text("Associations & structures", "الجمعيات والمؤسسات"), body: text("Intégrer un support de réflexion dans une démarche d’accompagnement. L’administration suit les participations autorisées.", "إدماج أداة للتأمل ضمن مسار المواكبة، مع متابعة المشاركات من طرف الإدارة المخولة.") },
+        ],
+    },
+    trust: {
+        title: text("Des repères, avec leurs limites.", "مؤشرات، بحدود واضحة."),
+        intro: text("Le parcours sert à réfléchir et à apprendre. Il ne prétend pas résumer une personne.", "يهدف المسار إلى التأمل والتعلم، ولا يدّعي اختزال شخصيتك."),
+        items: [
+            { title: text("Aucun diagnostic", "دون تشخيص"), body: text("Une situation par compétence ne constitue pas un test psychométrique validé.", "موقف واحد لكل مهارة لا يشكل اختبارا نفسيا مقننا.") },
+            { title: text("Aucun classement", "دون ترتيب"), body: text("Les indicateurs décrivent des choix, sans note scolaire ni hiérarchie entre participants.", "تصف المؤشرات الاختيارات دون نقطة مدرسية أو ترتيب بين المشاركين.") },
+            { title: text("Un accès encadré", "وصول منظم"), body: text("Votre nom, e-mail, réponses et rapport sont consultables par l’administration autorisée pour le suivi pédagogique. Ils ne sont pas publiés.", "يمكن للإدارة المخولة الاطلاع على اسمك وبريدك وإجاباتك وتقريرك للمتابعة التربوية، ولا تُنشر هذه البيانات.") },
+            { title: text("Des données maîtrisées", "بيانات بوصول محدود"), body: text("Vous pouvez supprimer votre parcours. Seuls des résultats et extraits sont envoyés à l’IA facultative, sans votre nom ni e-mail.", "يمكنك حذف مسارك. تُرسل نتائج ومقتطفات فقط إلى خدمة الذكاء الاصطناعي الاختيارية، دون اسمك أو بريدك.") },
+        ],
+        privacy: text("Comprendre l’utilisation de mes données", "فهم كيفية استخدام بياناتي"),
+    },
+    faq: {
+        title: text("Avant de commencer.", "قبل أن تبدأ."),
+        intro: text("Les réponses aux questions essentielles sur votre parcours.", "إجابات عن الأسئلة الأساسية حول مسارك."),
+        items: [
+            { question: text("Le test est-il gratuit ?", "هل الاختبار مجاني؟"), answer: text("Oui. Les questions et le bilan automatique sont accessibles sans carte bancaire. La synthèse IA facultative dépend de la disponibilité du fournisseur.", "نعم، الأسئلة والتقرير التلقائي متاحان دون بطاقة بنكية. الخلاصة الاختيارية بالذكاء الاصطناعي تعتمد على توفر خدمة المزود.") },
+            { question: text("Comment les questions changent-elles ?", "كيف تتغير الأسئلة؟"), answer: text("Chaque choix a une conséquence dans la simulation et oriente la situation suivante. Le parcours aborde les 31 compétences, une fois chacune.", "كل اختيار له نتيجة في المحاكاة ويفتح موقفا تاليا مرتبطا به. يغطي المسار 31 مهارة، مرة واحدة لكل مهارة.") },
+            { question: text("Puis-je faire une pause ?", "هل يمكنني التوقف؟"), answer: text("Vos choix sont sauvegardés. Revenez dans le même navigateur pendant sept jours pour reprendre votre parcours.", "تُحفظ الاختيارات تلقائيا. عد من المتصفح نفسه خلال سبعة أيام لاستئناف المسار.") },
+            { question: text("Qui peut lire mon rapport ?", "من يمكنه قراءة تقريري؟"), answer: text("Vous pouvez le consulter depuis votre navigateur. L’administration autorisée y accède pour le suivi pédagogique. Il n’est pas publié sur le site.", "يمكنك قراءته من متصفحك، كما يمكن للإدارة المخولة الاطلاع عليه للمتابعة التربوية. لا يتم نشره في الموقع العام.") },
+            { question: text("Que signifient les indicateurs ?", "ماذا تعني المؤشرات؟"), answer: text("Ils décrivent vos choix dans les situations proposées. Ce sont des repères pédagogiques, pas un diagnostic psychologique ni un classement.", "هي مؤشرات تربوية مرتبطة باختياراتك في مواقف محددة، وليست تشخيصا نفسيا أو ترتيبا للطلاب.") },
+            { question: text("L’égogramme est-il disponible ?", "هل الإيغوغرام متاح؟"), answer: text("Pas encore. Le test disponible est celui des soft skills. L’égogramme sera développé ultérieurement.", "ليس بعد. الاختبار المتاح حاليا هو اختبار المهارات الشخصية. سيُطوّر الإيغوغرام لاحقا.") },
+        ],
+    },
+    final: { title: text("Votre prochaine étape commence ici.", "خطوتك القادمة تبدأ هنا."), body: text("Un nom, un e-mail et vos choix. Prenez le temps de découvrir votre parcours.", "اسم وبريد إلكتروني واختياراتك أنت. خذ وقتك لاكتشاف مسارك.") },
+    footer: { links: text("Liens utiles", "روابط مفيدة"), privacy: text("Confidentialité", "الخصوصية"), admin: text("Administration", "الإدارة"), description: text("Un outil pédagogique pour explorer ses compétences et trouver de nouvelles pistes d’action.", "أداة تربوية لاستكشاف المهارات واكتشاف خطوات جديدة للعمل."), note: text("Un outil pédagogique, sans classement des personnes.", "أداة تربوية، دون تصنيف الأشخاص.") },
+};
+export const homeDemo = demo;

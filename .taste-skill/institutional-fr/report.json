@@ -1,0 +1,1663 @@
+{
+ "url": "http://localhost:3000/?lang=fr",
+ "at": "2026-10-29T15:51:34.371Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.86,
+    0.61,
+    0.42,
+    0.17,
+    0.39,
+    0.62
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 15,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4705,
+     "screens": 5.2,
+     "words": 388,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q",
+      "image?url=%2Fbrand%2Fpreviews%2Fpath-fr.png%3Fvi",
+      "image?url=%2Fbrand%2Fpreviews%2Fquestion-fr.png%",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fpreviews%2Freport-ar.png%3F",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Plus Jakarta Sans",
+     "weight": 650,
+     "tracking": -0.055,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 331,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "lines": 1,
+     "size": 64,
+     "font": "Plus Jakarta Sans"
+    },
+    "headings": [
+     {
+      "text": "Vos choix, votre voie.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.055,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 331,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Apprendre ouvre la voie.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 826,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Essayez un choix.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1076,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un bilan qui vous sert.",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 1821,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 compétences, un parcours.",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 2560,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Avant de commencer.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 3473,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 195.8,
+      "vw": 13.6,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.065,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4404,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      44,
+      48,
+      64,
+      196
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 195.8,
+      "vw": 13.6,
+      "font": "Plus Jakarta Sans",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#123348",
+       "top": 148,
+       "hsl": {
+        "h": 203,
+        "s": 0.6,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#edf2ef",
+       "top": 1000,
+       "hsl": {
+        "h": 144,
+        "s": 0.16,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.79
+      },
+      {
+       "color": "#50616a",
+       "share": 0.11
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d6e5e9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123348"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 2,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Commencer le test"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 50,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 3,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 148,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "plus jakarta sans",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4705,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.sq-header",
+      "tag": "header",
+      "top": 0,
+      "height": 148,
+      "words": 14,
+      "media": 0,
+      "middle": 592,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 148,
+      "height": 4096,
+      "words": 499,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Vos choix,",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.sq-footer",
+      "tag": "footer",
+      "top": 4243,
+      "height": 461,
+      "words": 16,
+      "media": 1,
+      "middle": 47,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 196,
+       "tag": "p"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Vos choix, votre voie.",
+      "size": 64,
+      "top": 331,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 9
+     },
+     {
+      "x": 531,
+      "n": 6
+     },
+     {
+      "x": 667,
+      "n": 1
+     },
+     {
+      "x": 784,
+      "n": 1
+     },
+     {
+      "x": 870,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 960,
+     "y": 120,
+     "w": 480,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.8,
+    0.69,
+    0.42,
+    0.36,
+    0.58
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 15,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4799,
+     "screens": 4.7,
+     "words": 388,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q",
+      "image?url=%2Fbrand%2Fpreviews%2Fpath-fr.png%3Fvi",
+      "image?url=%2Fbrand%2Fpreviews%2Fquestion-fr.png%",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 40,
+     "vw": 5.2,
+     "font": "Plus Jakarta Sans",
+     "weight": 650,
+     "tracking": -0.055,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 308,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "lines": 1,
+     "size": 40,
+     "font": "Plus Jakarta Sans"
+    },
+    "headings": [
+     {
+      "text": "Vos choix, votre voie.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.055,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 308,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Apprendre ouvre la voie.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 826,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Essayez un choix.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1157,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un bilan qui vous sert.",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2041,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 compétences, un parcours.",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2692,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Avant de commencer.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3677,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 104.4,
+      "vw": 13.6,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.065,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4608,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      28,
+      40,
+      48,
+      104
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 104.4,
+      "vw": 13.6,
+      "font": "Plus Jakarta Sans",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#123348",
+       "top": 148,
+       "hsl": {
+        "h": 203,
+        "s": 0.6,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#edf2ef",
+       "top": 1081,
+       "hsl": {
+        "h": 144,
+        "s": 0.16,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.79
+      },
+      {
+       "color": "#50616a",
+       "share": 0.11
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d6e5e9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123348"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 2,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Commencer le test"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 50,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 3,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1323
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 148,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "plus jakarta sans",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4799,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.sq-header",
+      "tag": "header",
+      "top": 0,
+      "height": 148,
+      "words": 14,
+      "media": 0,
+      "middle": 52,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 148,
+      "height": 4300,
+      "words": 499,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Essayez un choix.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.sq-footer",
+      "tag": "footer",
+      "top": 4447,
+      "height": 352,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 104,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Vos choix, votre voie.",
+      "size": 40,
+      "top": 308,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 9
+     },
+     {
+      "x": 291,
+      "n": 6
+     },
+     {
+      "x": 355,
+      "n": 1
+     },
+     {
+      "x": 419,
+      "n": 1
+     },
+     {
+      "x": 454,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.9,
+    0.71,
+    0.56,
+    0.51,
+    0.39,
+    0.83,
+    0.91
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 15,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5177,
+     "screens": 6.1,
+     "words": 382,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fpreviews%2Fpath-fr.png%3Fvi",
+      "image?url=%2Fbrand%2Fpreviews%2Fquestion-fr.png%",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-fr.png%3",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 34.7,
+     "vw": 8.9,
+     "font": "Plus Jakarta Sans",
+     "weight": 650,
+     "tracking": -0.05,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 188,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Vos choix, votre voie.",
+     "words": 4,
+     "lines": 1,
+     "size": 34.7,
+     "font": "Plus Jakarta Sans"
+    },
+    "headings": [
+     {
+      "text": "Vos choix, votre voie.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 34.7,
+      "vw": 8.9,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.05,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 188,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Apprendre ouvre la voie.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 878,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Essayez un choix.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1199,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un bilan qui vous sert.",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2240,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 compétences, un parcours.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3087,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Avant de commencer.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Plus Jakarta Sans",
+      "weight": 650,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4123,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 58.5,
+      "vw": 15,
+      "font": "Plus Jakarta Sans",
+      "weight": 600,
+      "tracking": -0.06,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5008,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      28,
+      34,
+      35,
+      59
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 58.5,
+      "vw": 15,
+      "font": "Plus Jakarta Sans",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#123348",
+       "top": 158,
+       "hsl": {
+        "h": 203,
+        "s": 0.6,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#edf2ef",
+       "top": 1154,
+       "hsl": {
+        "h": 144,
+        "s": 0.16,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1447,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.78
+      },
+      {
+       "color": "#50616a",
+       "share": 0.12
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d6e5e9",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123348"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 2,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Commencer le test"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 50,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 3,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1612
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 158,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "plus jakarta sans",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5177,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.sq-header",
+      "tag": "header",
+      "top": 0,
+      "height": 158,
+      "words": 8,
+      "media": 0,
+      "middle": 95,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 158,
+      "height": 4587,
+      "words": 481,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "Vos choix,",
+       "size": 35,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.sq-footer",
+      "tag": "footer",
+      "top": 4745,
+      "height": 432,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 59,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 32,
+      "textLeft": 20,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Vos choix, votre voie.",
+      "size": 35,
+      "top": 188,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (13, 14, 15, 16, 18, 22, 44, 48, 64, 196).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 15 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 390,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\desktop-page-01.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-fr\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

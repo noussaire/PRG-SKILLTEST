@@ -1,0 +1,2813 @@
+{
+ "url": "http://127.0.0.1:3000",
+ "at": "2026-10-29T16:09:43.619Z",
+ "allow": [
+  "shadow",
+  "hairline"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.84,
+    0.55,
+    1,
+    0.75,
+    1,
+    0.56,
+    1,
+    1,
+    0.53
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7948,
+     "screens": 8.8,
+     "words": 631,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 22,
+     "sections": 11,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q",
+      "image?url=%2Fbrand%2Fpreviews%2Freport-ar.png&w=",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-ar.png&w",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 102.2,
+     "vw": 7.1,
+     "font": "Tajawal",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.35,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.4,
+     "top": 272,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "lines": 2,
+     "size": 102.2,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 102.2,
+      "vw": 7.1,
+      "font": "Tajawal",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 272,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31 31",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 969,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "2 2",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 969,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "4 4",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 969,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "7 7",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 969,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "لتعرف نفسك أكثر.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 1268,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "لنحوّل التأمل إلى خطوات.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 1464,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "اختيار يفتح الخطوة التالية.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 1826,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "اختر",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 2145,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "اكتشف النتيجة",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 2177,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "تابع المسار",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 2209,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "احصل على تقريرك",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 2241,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "الاختيار لك.",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 2599,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "تقرير يساعدك على التقدم.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 3517,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 مهارة. أربع زوايا.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 4248,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "الإنصات والتعبير عن الأفكار وفهم الآخر.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 4532,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "لكلّ نقطة انطلاقه.",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4982,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "الطلبة والشباب البالغون",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 5150,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "الأساتذة والمؤطرون",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 5198,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "الجمعيات والمؤسسات",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 5214,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "مؤشرات، بحدود واضحة.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 5664,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "قبل أن تبدأ.",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 6265,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "خطوتك القادمة تبدأ هنا.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 59,
+      "vw": 4.1,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 6914,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 16,
+      "font": "Outfit",
+      "weight": 400,
+      "tracking": -0.06,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 7571,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 24,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      28,
+      58,
+      59,
+      102,
+      230
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.6
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 230.4,
+      "vw": 16,
+      "font": "Outfit",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.03,
+     "smallText": 21
+    },
+    "eyebrows": [
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "اختياراتك، طريقك.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 227
+     },
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "لتعرف نفسك أكثر.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1224
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fafaf5",
+       "top": 131,
+       "hsl": {
+        "h": 60,
+        "s": 0.33,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1108,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#edf5f9",
+       "top": 1711,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#e3efdd",
+       "top": 2483,
+       "hsl": {
+        "h": 100,
+        "s": 0.36,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#09223b",
+       "top": 4133,
+       "hsl": {
+        "h": 210,
+        "s": 0.74,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#163e26",
+       "top": 6818,
+       "hsl": {
+        "h": 144,
+        "s": 0.48,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#526877",
+       "share": 0.47
+      },
+      {
+       "color": "#123348",
+       "share": 0.32
+      },
+      {
+       "color": "#d9e9f2",
+       "share": 0.06
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#09223b",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#146b27",
+      "hsl": {
+       "h": 133,
+       "s": 0.69,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "● ● ●",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 10.4,
+       "fg": "#8ab3d0",
+       "bg": "#edf5f9"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": 8,
+     "height": 60,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "بدء الاختبار",
+      "بدء الاختبار"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 3,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "figure.hq-hero-receipt → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "div.hq-about-paper → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "img → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.public-header.hq-site-header 1440px",
+      "div 590px",
+      "div 590px",
+      "div 590px",
+      "div 590px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 1,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.46
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 131,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7948,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.hq-site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 131,
+      "words": 15,
+      "media": 0,
+      "middle": 430,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 131,
+      "height": 7178,
+      "words": 692,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "اختياراتك، طريقك.",
+       "size": 102,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 74,
+      "textLeft": 91,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.hq-site-footer",
+      "tag": "footer",
+      "top": 7309,
+      "height": 639,
+      "words": 25,
+      "media": 1,
+      "middle": 137,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 230,
+       "tag": "p"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "size": 102,
+      "top": 272,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 114,
+      "n": 3
+     },
+     {
+      "x": 125,
+      "n": 2
+     },
+     {
+      "x": 147,
+      "n": 2
+     },
+     {
+      "x": 249,
+      "n": 2
+     },
+     {
+      "x": 825,
+      "n": 2
+     },
+     {
+      "x": 889,
+      "n": 2
+     },
+     {
+      "x": 970,
+      "n": 2
+     },
+     {
+      "x": 1069,
+      "n": 2
+     },
+     {
+      "x": 1086,
+      "n": 2
+     },
+     {
+      "x": 194,
+      "n": 1
+     },
+     {
+      "x": 210,
+      "n": 1
+     },
+     {
+      "x": 236,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.04,
+    "voidBox": {
+     "x": 1380,
+     "y": 120,
+     "w": 60,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.85,
+    0.73,
+    0.85,
+    1,
+    0.64,
+    1,
+    0.64,
+    0.76
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7212,
+     "screens": 7,
+     "words": 631,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 22,
+     "sections": 11,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fpreviews%2Freport-ar.png&w=",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-ar.png&w",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 54.5,
+     "vw": 7.1,
+     "font": "Tajawal",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.35,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.4,
+     "top": 391,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "lines": 2,
+     "size": 54.5,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 54.5,
+      "vw": 7.1,
+      "font": "Tajawal",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 391,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31 31",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1066,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "2 2",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1066,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "4 4",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1066,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "7 7",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1066,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "لتعرف نفسك أكثر.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1300,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "اختيار يفتح الخطوة التالية.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1777,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "الاختيار لك.",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 2425,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "تقرير يساعدك على التقدم.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 3317,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 مهارة. أربع زوايا.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 3946,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "لكلّ نقطة انطلاقه.",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 4562,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "مؤشرات، بحدود واضحة.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 5257,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "قبل أن تبدأ.",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 5764,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "خطوتك القادمة تبدأ هنا.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 6370,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 122.9,
+      "vw": 16,
+      "font": "Outfit",
+      "weight": 400,
+      "tracking": -0.06,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6965,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      21,
+      36,
+      40,
+      55,
+      123
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.6
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 122.9,
+      "vw": 16,
+      "font": "Outfit",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.03,
+     "smallText": 21
+    },
+    "eyebrows": [
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "اختياراتك، طريقك.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 347
+     },
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "لتعرف نفسك أكثر.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1256
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fafaf5",
+       "top": 202,
+       "hsl": {
+        "h": 60,
+        "s": 0.33,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1184,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#edf5f9",
+       "top": 1705,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#e3efdd",
+       "top": 2347,
+       "hsl": {
+        "h": 100,
+        "s": 0.36,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#09223b",
+       "top": 3841,
+       "hsl": {
+        "h": 210,
+        "s": 0.74,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#163e26",
+       "top": 6274,
+       "hsl": {
+        "h": 144,
+        "s": 0.48,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#526877",
+       "share": 0.47
+      },
+      {
+       "color": "#123348",
+       "share": 0.32
+      },
+      {
+       "color": "#d9e9f2",
+       "share": 0.06
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#09223b",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#146b27",
+      "hsl": {
+       "h": 133,
+       "s": 0.69,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "● ● ●",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 10.4,
+       "fg": "#8ab3d0",
+       "bg": "#edf5f9"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": 8,
+     "height": 60,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "بدء الاختبار",
+      "بدء الاختبار"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 3,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "figure.hq-hero-receipt → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "div.hq-about-paper → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "img → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.public-header.hq-site-header 768px",
+      "div 328px",
+      "div 328px",
+      "div 328px",
+      "div 328px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.42
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 202,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7212,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.hq-site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 202,
+      "words": 15,
+      "media": 0,
+      "middle": 140,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 202,
+      "height": 6500,
+      "words": 692,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "اختياراتك، طريقك.",
+       "size": 55,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 29,
+      "textLeft": 34,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.hq-site-footer",
+      "tag": "footer",
+      "top": 6702,
+      "height": 510,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 123,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "size": 55,
+      "top": 391,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 498,
+      "n": 4
+     },
+     {
+      "x": 516,
+      "n": 4
+     },
+     {
+      "x": 34,
+      "n": 3
+     },
+     {
+      "x": 78,
+      "n": 3
+     },
+     {
+      "x": 89,
+      "n": 3
+     },
+     {
+      "x": 401,
+      "n": 2
+     },
+     {
+      "x": 441,
+      "n": 2
+     },
+     {
+      "x": 453,
+      "n": 2
+     },
+     {
+      "x": 564,
+      "n": 2
+     },
+     {
+      "x": 52,
+      "n": 1
+     },
+     {
+      "x": 65,
+      "n": 1
+     },
+     {
+      "x": 149,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.88,
+    0.73,
+    1,
+    0.61,
+    0.99,
+    1,
+    0.76,
+    0.84,
+    1,
+    0.9,
+    0.55
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9779,
+     "screens": 11.6,
+     "words": 625,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 22,
+     "sections": 11,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fpreviews%2Freport-ar.png&w=",
+      "image?url=%2Fbrand%2Fpreviews%2Fsummary-ar.png&w",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 56,
+     "vw": 14.4,
+     "font": "Tajawal",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.35,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.81,
+     "top": 333,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "اختياراتك، طريقك.",
+     "words": 2,
+     "lines": 2,
+     "size": 56,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Tajawal",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 333,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31 31",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1565,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "2 2",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1565,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "4 4",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1673,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "7 7",
+      "words": 2,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1673,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "لتعرف نفسك أكثر.",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1898,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "اختيار يفتح الخطوة التالية.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2670,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "الاختيار لك.",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3495,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "تقرير يساعدك على التقدم.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4687,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "31 مهارة. أربع زوايا.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5610,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "الإنصات والتعبير عن الأفكار وفهم الآخر.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 5980,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "لكلّ نقطة انطلاقه.",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6460,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "مؤشرات، بحدود واضحة.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7201,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "قبل أن تبدأ.",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8114,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "خطوتك القادمة تبدأ هنا.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Tajawal",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8851,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SkillQuest",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Outfit",
+      "weight": 400,
+      "tracking": -0.06,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9572,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      21,
+      24,
+      40,
+      56,
+      66
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.6
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 66.3,
+      "vw": 17,
+      "font": "Outfit",
+      "text": "SkillQuest"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.03,
+     "smallText": 20
+    },
+    "eyebrows": [
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "اختياراتك، طريقك.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 288
+     },
+     {
+      "text": "جمعية شابا كونكت",
+      "above": "لتعرف نفسك أكثر.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1853
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fafaf5",
+       "top": 248,
+       "hsl": {
+        "h": 60,
+        "s": 0.33,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 854,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#edf5f9",
+       "top": 2598,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#e3efdd",
+       "top": 3423,
+       "hsl": {
+        "h": 100,
+        "s": 0.36,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#09223b",
+       "top": 5538,
+       "hsl": {
+        "h": 210,
+        "s": 0.74,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#163e26",
+       "top": 8787,
+       "hsl": {
+        "h": 144,
+        "s": 0.48,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#526877",
+       "share": 0.47
+      },
+      {
+       "color": "#123348",
+       "share": 0.32
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d9e9f2",
+       "share": 0.05
+      },
+      {
+       "color": "#09223b",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#146b27",
+      "hsl": {
+       "h": 133,
+       "s": 0.69,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "● ● ●",
+       "ratio": 2,
+       "need": 4.5,
+       "size": 10.4,
+       "fg": "#8ab3d0",
+       "bg": "#edf5f9"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": 8,
+     "height": 57,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "بدء الاختبار",
+      "بدء الاختبار"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 3,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "figure.hq-hero-receipt → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "div.hq-about-paper → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px",
+      "img → rgba(1, 39, 84, 0.03) 0px 4px 10px 0px, rgba(1, 39, 84, 0.08) 0px 24px 64px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.public-header.hq-site-header 390px",
+      "div 350px",
+      "div 350px",
+      "div 350px",
+      "div 350px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 248,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9779,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.hq-site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 248,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 115,
+      "right": 20,
+      "textLeft": 115,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 248,
+      "height": 8941,
+      "words": 691,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "اختياراتك، طريقك.",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 22,
+      "textRight": 20,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.hq-site-footer",
+      "tag": "footer",
+      "top": 9190,
+      "height": 589,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SkillQuest",
+       "size": 66,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "اختياراتك، طريقك.",
+      "size": 56,
+      "top": 333,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 34,
+      "n": 5
+     },
+     {
+      "x": 51,
+      "n": 5
+     },
+     {
+      "x": 62,
+      "n": 4
+     },
+     {
+      "x": 124,
+      "n": 4
+     },
+     {
+      "x": 75,
+      "n": 3
+     },
+     {
+      "x": 134,
+      "n": 2
+     },
+     {
+      "x": 145,
+      "n": 2
+     },
+     {
+      "x": 178,
+      "n": 2
+     },
+     {
+      "x": 22,
+      "n": 1
+     },
+     {
+      "x": 101,
+      "n": 1
+     },
+     {
+      "x": 112,
+      "n": 1
+     },
+     {
+      "x": 161,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"جمعية شابا كونكت\" above \"اختياراتك، طريقك.\"; \"جمعية شابا كونكت\" above \"لتعرف نفسك أكثر.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "2 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (section #fafaf5).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"● ● ●\" 2:1 (#8ab3d0 on #edf5f9)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "13 different font sizes (10, 11, 12, 13, 14, 15, 16, 19, 28, 58, 59, 102, 230).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (5.6:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "21 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 12 different lines (114px, 125px, 147px, 249px, 825px, 889px, 970px); the three most used hold only 23% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 13 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"اختياراتك، طريقك.\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 768,
+   "message": "Large text lies under another element at some scroll position: \"مؤشرات، بحدود واضحة.\" (screen 6, 75% hidden); \"خطوتك القادمة تبدأ هنا.\" (screen 8, 25% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\institutional-v2\\inspect\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

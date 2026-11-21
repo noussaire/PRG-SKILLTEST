@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "express",
+  "buildCommand": "npm run build:vercel",
+  "functions": {
+    "index.mjs": {
+      "maxDuration": 90,
+      "includeFiles": "{assets/**,../shared/**,../node_modules/.prisma/client/*.node,../node_modules/.prisma/client/schema.prisma,../node_modules/@sparticuz/chromium/**,../node_modules/playwright-core-serverless/**}"
+    }
+  }
+}

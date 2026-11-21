@@ -1,0 +1,213 @@
+{
+  "question": {
+    "fr": "Votre groupe découvre un projet de tutorat. Plusieurs étudiants semblent perdus. Quelle action choisissez-vous ?",
+    "ar": "يتعرف فريقك على مشروع للدعم الدراسي ويبدو بعض الطلبة مرتبكين. أي تصرف تختار؟"
+  },
+  "choices": [
+    {
+      "fr": "Je présente un exemple simple, puis je demande au groupe de reformuler l’objectif.",
+      "ar": "أقدم مثالا بسيطا ثم أطلب من الفريق إعادة صياغة الهدف.",
+      "reaction": {
+        "fr": "Après votre exemple et la reformulation du groupe, un étudiant exprime une inquiétude que les autres n’avaient pas remarquée.",
+        "ar": "بعد مثالك وإعادة صياغة الهدف، يعبر طالب عن قلق لم ينتبه إليه الآخرون."
+      },
+      "next": {
+        "fr": "Un camarade conteste votre proposition et semble frustré. Comment poursuivez-vous l’échange ?",
+        "ar": "يعترض زميل على اقتراحك ويبدو محبطا. كيف تتابع النقاش؟"
+      }
+    },
+    {
+      "fr": "Je résume les objectifs et j’invite les personnes intéressées à poser des questions.",
+      "ar": "ألخص الأهداف وأدعو المهتمين إلى طرح أسئلتهم.",
+      "reaction": {
+        "fr": "Votre résumé suscite de l’intérêt. Le groupe vous confie maintenant une présentation de trois minutes devant de nouveaux étudiants.",
+        "ar": "أثار ملخصك الاهتمام. يكلفك الفريق الآن بعرض مدته ثلاث دقائق أمام طلبة جدد."
+      },
+      "next": {
+        "fr": "Vous disposez de trois minutes pour présenter le projet à un public nouveau. Que préparez-vous ?",
+        "ar": "لديك ثلاث دقائق لعرض المشروع أمام جمهور جديد. ماذا تحضر؟"
+      }
+    },
+    {
+      "fr": "Je présente tous les détails pour éviter de laisser des informations de côté.",
+      "ar": "أعرض جميع التفاصيل حتى لا أغفل أي معلومة.",
+      "reaction": {
+        "fr": "Votre présentation détaillée dépasse le temps prévu. Plusieurs demandes arrivent alors que la tâche principale reste à terminer.",
+        "ar": "تجاوز عرضك المفصل الوقت المحدد. تصل طلبات متعددة بينما لم تكتمل المهمة الرئيسية."
+      },
+      "next": {
+        "fr": "Une tâche importante et plusieurs petites demandes se présentent en même temps. Que faites-vous ?",
+        "ar": "تزامنت مهمة مهمة مع طلبات صغيرة متعددة. ماذا تفعل؟"
+      }
+    },
+    {
+      "fr": "J’envoie le document complet et je laisse chacun le comprendre à son rythme.",
+      "ar": "أرسل الوثيقة كاملة وأترك لكل شخص فهمها بالوتيرة التي تناسبه.",
+      "reaction": {
+        "fr": "Après l’envoi du document, deux membres interprètent différemment les consignes et se reprochent leurs erreurs.",
+        "ar": "بعد إرسال الوثيقة، يفسر عضوان التعليمات بشكل مختلف ويتبادلان اللوم على الأخطاء."
+      },
+      "next": {
+        "fr": "Deux membres s’accusent mutuellement d’avoir retardé le travail. Que choisissez-vous ?",
+        "ar": "يتبادل عضوان الاتهامات بالتسبب في تأخير العمل. ماذا تختار؟"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "communication",
+      "fr": "Communication",
+      "ar": "التواصل"
+    },
+    {
+      "id": "ecoute-active",
+      "fr": "Écoute active",
+      "ar": "الإنصات الفعال"
+    },
+    {
+      "id": "assertivite",
+      "fr": "Assertivité",
+      "ar": "التعبير الحازم"
+    },
+    {
+      "id": "empathie",
+      "fr": "Empathie",
+      "ar": "التعاطف"
+    },
+    {
+      "id": "travail-equipe",
+      "fr": "Travail en équipe",
+      "ar": "العمل الجماعي"
+    },
+    {
+      "id": "collaboration",
+      "fr": "Collaboration",
+      "ar": "التعاون"
+    },
+    {
+      "id": "leadership",
+      "fr": "Leadership",
+      "ar": "القيادة"
+    },
+    {
+      "id": "gestion-conflits",
+      "fr": "Gestion des conflits",
+      "ar": "إدارة النزاعات"
+    },
+    {
+      "id": "negociation",
+      "fr": "Négociation",
+      "ar": "التفاوض"
+    },
+    {
+      "id": "influence",
+      "fr": "Influence et persuasion",
+      "ar": "التأثير والإقناع"
+    },
+    {
+      "id": "prise-parole",
+      "fr": "Prise de parole",
+      "ar": "التحدث أمام الجمهور"
+    },
+    {
+      "id": "intelligence-emotionnelle",
+      "fr": "Régulation émotionnelle",
+      "ar": "تنظيم المشاعر"
+    },
+    {
+      "id": "conscience-soi",
+      "fr": "Connaissance de soi",
+      "ar": "الوعي بالذات"
+    },
+    {
+      "id": "gestion-stress",
+      "fr": "Gestion du stress",
+      "ar": "إدارة الضغط"
+    },
+    {
+      "id": "resilience",
+      "fr": "Résilience",
+      "ar": "القدرة على التعافي"
+    },
+    {
+      "id": "adaptabilite",
+      "fr": "Adaptabilité",
+      "ar": "التكيف"
+    },
+    {
+      "id": "creativite",
+      "fr": "Créativité",
+      "ar": "الإبداع"
+    },
+    {
+      "id": "esprit-critique",
+      "fr": "Esprit critique",
+      "ar": "التفكير النقدي"
+    },
+    {
+      "id": "resolution-problemes",
+      "fr": "Résolution de problèmes",
+      "ar": "حل المشكلات"
+    },
+    {
+      "id": "prise-decision",
+      "fr": "Prise de décision",
+      "ar": "اتخاذ القرار"
+    },
+    {
+      "id": "gestion-temps",
+      "fr": "Gestion du temps",
+      "ar": "إدارة الوقت"
+    },
+    {
+      "id": "organisation",
+      "fr": "Organisation",
+      "ar": "التنظيم"
+    },
+    {
+      "id": "planification",
+      "fr": "Planification",
+      "ar": "التخطيط"
+    },
+    {
+      "id": "autonomie",
+      "fr": "Autonomie",
+      "ar": "الاستقلالية"
+    },
+    {
+      "id": "initiative",
+      "fr": "Prise d'initiative",
+      "ar": "المبادرة"
+    },
+    {
+      "id": "responsabilite",
+      "fr": "Sens des responsabilités",
+      "ar": "تحمل المسؤولية"
+    },
+    {
+      "id": "fiabilite",
+      "fr": "Fiabilité",
+      "ar": "الموثوقية"
+    },
+    {
+      "id": "apprentissage-continu",
+      "fr": "Apprentissage continu",
+      "ar": "التعلم المستمر"
+    },
+    {
+      "id": "curiosite",
+      "fr": "Curiosité",
+      "ar": "الفضول المعرفي"
+    },
+    {
+      "id": "inclusion",
+      "fr": "Ouverture et inclusion",
+      "ar": "الانفتاح والشمول"
+    },
+    {
+      "id": "ethique",
+      "fr": "Éthique professionnelle",
+      "ar": "الأخلاق المهنية"
+    }
+  ]
+}

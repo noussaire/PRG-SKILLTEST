@@ -1,0 +1,1924 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-29T09:38:58.759Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.93,
+    0.72,
+    0.68
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1892,
+     "screens": 2.1,
+     "words": 225,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "chars": 42,
+     "lines": 3,
+     "size": 56,
+     "vw": 3.9,
+     "font": "Tajawal",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.38,
+     "top": 258,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "lines": 3,
+     "size": 56,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "words": 6,
+      "chars": 42,
+      "lines": 3,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 258,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 767,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.01,
+      "top": 767,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 767,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "words": 6,
+      "chars": 37,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 952,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 1508,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      30,
+      36,
+      56
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 130,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "text": "مهاراتك تصنع اكتشفها مع SkillQuest."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "مبادرة جمعية شابا كونكت"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0.05,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "تعلّم · طوّر · استكشف · اترك أثرا",
+      "above": "مهاراتك تصنع الفرق. اكتشفها مع SkillQues",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 213
+     },
+     {
+      "text": "مسار واضح، خطوة بخطوة",
+      "above": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 915
+     },
+     {
+      "text": "مبادرة جمعية شابا كونكت",
+      "above": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1480
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 1073
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 1073
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 1073
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f8f7",
+     "bodyBgHsl": {
+      "h": 160,
+      "s": 0.18,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#25451f",
+       "share": 0.15
+      },
+      {
+       "color": "#5b6d7b",
+       "share": 0.13
+      },
+      {
+       "color": "#074f78",
+       "share": 0.08
+      },
+      {
+       "color": "#082f47",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#074f78",
+      "hsl": {
+       "h": 202,
+       "s": 0.89,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "الانتقال إلى المحتوى",
+      "العربية",
+      "المسار التكيفي",
+      "اختيار اختباري"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button.min-h-10.rounded-lg → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a#cta-start-adaptive.brand-button → rgb(19, 43, 16) 0px 5px 15px -10px",
+      "div.relative.overflow-hidden → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, ",
+      "article.rounded-2xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, "
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section.brand-hero.border-b → linear-gradient(115deg, rgb(245, 249, 252), rgb(255, 255, 255) 60%, rgb(241, 247, 237))"
+     ],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "header.public-header.sticky 1440px",
+      "section.brand-hero.border-b 1440px",
+      "div.flex.items-center 497px",
+      "div.mx-auto.grid 1152px",
+      "footer.mt-16.border-t 1440px"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 6,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1028
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 112,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1892,
+    "margins": {
+     "left": 169,
+     "right": 164
+    },
+    "sections": [
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 112,
+      "height": 1520,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "مهاراتك تصنع",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 201,
+      "right": 164,
+      "textLeft": 201,
+      "textRight": 164,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.mt-16.border-t",
+      "tag": "footer",
+      "top": 1696,
+      "height": 196,
+      "words": 29,
+      "media": 1,
+      "middle": 266,
+      "heading": null,
+      "left": 164,
+      "right": 164,
+      "textLeft": 164,
+      "textRight": 332,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "size": 56,
+      "top": 258,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 788,
+      "n": 2
+     },
+     {
+      "x": 957,
+      "n": 2
+     },
+     {
+      "x": 211,
+      "n": 1
+     },
+     {
+      "x": 311,
+      "n": 1
+     },
+     {
+      "x": 334,
+      "n": 1
+     },
+     {
+      "x": 371,
+      "n": 1
+     },
+     {
+      "x": 580,
+      "n": 1
+     },
+     {
+      "x": 617,
+      "n": 1
+     },
+     {
+      "x": 710,
+      "n": 1
+     },
+     {
+      "x": 737,
+      "n": 1
+     },
+     {
+      "x": 761,
+      "n": 1
+     },
+     {
+      "x": 899,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 0,
+     "y": 300,
+     "w": 300,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    1,
+    0.64,
+    0.76
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2422,
+     "screens": 2.4,
+     "words": 225,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q",
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "chars": 42,
+     "lines": 2,
+     "size": 48,
+     "vw": 6.3,
+     "font": "Tajawal",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 264,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "lines": 2,
+     "size": 48,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "words": 6,
+      "chars": 42,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 264,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 1165,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 1165,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 1165,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "words": 6,
+      "chars": 37,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1350,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "words": 6,
+      "chars": 34,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 1962,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      30,
+      36,
+      48
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 93,
+     "max": {
+      "size": 48,
+      "vw": 6.3,
+      "font": "Tajawal",
+      "text": "مهاراتك تصنع اكتشفها مع SkillQuest."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "مبادرة جمعية شابا كونكت"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0.05,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "تعلّم · طوّر · استكشف · اترك أثرا",
+      "above": "مهاراتك تصنع الفرق. اكتشفها مع SkillQues",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 219
+     },
+     {
+      "text": "مسار واضح، خطوة بخطوة",
+      "above": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1313
+     },
+     {
+      "text": "مبادرة جمعية شابا كونكت",
+      "above": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1934
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 1471
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 1471
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 1471
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f8f7",
+     "bodyBgHsl": {
+      "h": 160,
+      "s": 0.18,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 634,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#25451f",
+       "share": 0.15
+      },
+      {
+       "color": "#5b6d7b",
+       "share": 0.13
+      },
+      {
+       "color": "#074f78",
+       "share": 0.08
+      },
+      {
+       "color": "#082f47",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#074f78",
+      "hsl": {
+       "h": 202,
+       "s": 0.89,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "الانتقال إلى المحتوى",
+      "العربية",
+      "المسار التكيفي",
+      "اختيار اختباري"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button.min-h-10.rounded-lg → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a#cta-start-adaptive.brand-button → rgb(19, 43, 16) 0px 5px 15px -10px",
+      "div.relative.overflow-hidden → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, ",
+      "article.rounded-2xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, "
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section.brand-hero.border-b → linear-gradient(115deg, rgb(245, 249, 252), rgb(255, 255, 255) 60%, rgb(241, 247, 237))"
+     ],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "header.public-header.sticky 768px",
+      "nav.col-span-2.flex 728px",
+      "section.brand-hero.border-b 768px",
+      "div.flex.items-center 726px",
+      "div.mx-auto.grid 768px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 7,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1426
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 167,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2422,
+    "margins": {
+     "left": 25,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.sticky",
+      "tag": "header",
+      "top": 0,
+      "height": 167,
+      "words": 6,
+      "media": 0,
+      "middle": 240,
+      "heading": null,
+      "left": 25,
+      "right": 32,
+      "textLeft": 28,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 167,
+      "height": 1995,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "مهاراتك تصنع",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 44,
+      "right": 20,
+      "textLeft": 44,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.mt-16.border-t",
+      "tag": "footer",
+      "top": 2226,
+      "height": 196,
+      "words": 29,
+      "media": 1,
+      "middle": 57,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 188,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "size": 48,
+      "top": 264,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 44,
+      "n": 2
+     },
+     {
+      "x": 182,
+      "n": 2
+     },
+     {
+      "x": 419,
+      "n": 2
+     },
+     {
+      "x": 89,
+      "n": 1
+     },
+     {
+      "x": 99,
+      "n": 1
+     },
+     {
+      "x": 256,
+      "n": 1
+     },
+     {
+      "x": 266,
+      "n": 1
+     },
+     {
+      "x": 286,
+      "n": 1
+     },
+     {
+      "x": 319,
+      "n": 1
+     },
+     {
+      "x": 361,
+      "n": 1
+     },
+     {
+      "x": 549,
+      "n": 1
+     },
+     {
+      "x": 623,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    1,
+    0.8,
+    0.81,
+    0.84
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3252,
+     "screens": 3.9,
+     "words": 225,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fbrand%2Fskillquest-logo.png&w=256&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "chars": 42,
+     "lines": 3,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Tajawal",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1.18,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 251,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+     "words": 6,
+     "lines": 3,
+     "size": 36,
+     "font": "Tajawal"
+    },
+    "headings": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "words": 6,
+      "chars": 42,
+      "lines": 3,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 251,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "31",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.27,
+      "top": 1263,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 1263,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1263,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1457,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Tajawal",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 2592,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Tajawal",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Tajawal",
+      "size": 14,
+      "leading": 2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Tajawal",
+      "text": "مهاراتك تصنع اكتشفها مع SkillQuest."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "مبادرة جمعية شابا كونكت"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0.05,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "تعلّم · طوّر · استكشف · اترك أثرا",
+      "above": "مهاراتك تصنع الفرق. اكتشفها مع SkillQues",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 206
+     },
+     {
+      "text": "مسار واضح، خطوة بخطوة",
+      "above": "من اختياراتك إلى خطوات ملموسة للتقدم.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1419
+     },
+     {
+      "text": "مبادرة جمعية شابا كونكت",
+      "above": "مستعد لاكتشاف ما يدفعك إلى الأمام؟",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2564
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 1613
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 1859
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 2105
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f8f7",
+     "bodyBgHsl": {
+      "h": 160,
+      "s": 0.18,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 685,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#082f47",
+       "top": 2532,
+       "hsl": {
+        "h": 203,
+        "s": 0.8,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#25451f",
+       "share": 0.15
+      },
+      {
+       "color": "#5b6d7b",
+       "share": 0.13
+      },
+      {
+       "color": "#074f78",
+       "share": 0.08
+      },
+      {
+       "color": "#082f47",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#074f78",
+      "hsl": {
+       "h": 202,
+       "s": 0.89,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "الانتقال إلى المحتوى",
+      "العربية",
+      "المسار التكيفي",
+      "اختيار اختباري"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 6,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button.min-h-10.rounded-lg → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a#cta-start-adaptive.brand-button → rgb(19, 43, 16) 0px 5px 15px -10px",
+      "div.relative.overflow-hidden → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, ",
+      "article.rounded-2xl.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, "
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "section.brand-hero.border-b → linear-gradient(115deg, rgb(245, 249, 252), rgb(255, 255, 255) 60%, rgb(241, 247, 237))"
+     ],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "header.public-header.sticky 390px",
+      "nav.col-span-2.flex 350px",
+      "section.brand-hero.border-b 390px",
+      "div.flex.items-center 348px",
+      "div.mx-auto.grid 390px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1568
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 155,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "tajawal"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3252,
+    "margins": {
+     "left": 24,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.public-header.sticky",
+      "tag": "header",
+      "top": 0,
+      "height": 155,
+      "words": 5,
+      "media": 0,
+      "middle": 69,
+      "heading": null,
+      "left": 25,
+      "right": 32,
+      "textLeft": 41,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "main#main-content.flex-1",
+      "tag": "main",
+      "top": 155,
+      "height": 2673,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "مهاراتك تصنع",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 21,
+      "right": 20,
+      "textLeft": 21,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.mt-16.border-t",
+      "tag": "footer",
+      "top": 2892,
+      "height": 360,
+      "words": 29,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 48,
+      "right": 20,
+      "textLeft": 48,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.",
+      "size": 36,
+      "top": 251,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 5
+     },
+     {
+      "x": 21,
+      "n": 2
+     },
+     {
+      "x": 124,
+      "n": 2
+     },
+     {
+      "x": 171,
+      "n": 2
+     },
+     {
+      "x": 59,
+      "n": 1
+     },
+     {
+      "x": 220,
+      "n": 1
+     },
+     {
+      "x": 233,
+      "n": 1
+     },
+     {
+      "x": 245,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.\" → 3 lines (6 words, 56px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"تعلّم · طوّر · استكشف · اترك أثرا\" above \"مهاراتك تصنع الفرق. اكتشفها مع SkillQues\"; \"مسار واضح، خطوة بخطوة\" above \"من اختياراتك إلى خطوات ملموسة للتقدم.\"; \"مبادرة جمعية شابا كونكت\" above \"مستعد لاكتشاف ما يدفعك إلى الأمام؟\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "1 tiny uppercase letter-spaced label(s): \"مبادرة جمعية شابا كونكت\"",
+   "fix": "Prefer sentence case at body size.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): section.brand-hero.border-b → linear-gradient(115deg, rgb(245, 249, 252), rgb(255, 255, 255) 60%, rgb(241, 247, 237))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "6 box-shadow(s) on elements at rest: button.min-h-10.rounded-lg → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | a#cta-start-adaptive.brand-button → rgb(19, 43, 16) 0px 5px 15px -10px | div.relative.overflow-hidden → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(8, 47, ",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "6 thin rule(s)/divider line(s): header.public-header.sticky 1440px | section.brand-hero.border-b 1440px | div.flex.items-center 497px | div.mx-auto.grid 1152px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "4 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 130 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "15 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 56px (3.9vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 12 different lines (788px, 957px, 211px, 311px, 334px, 371px, 580px); the three most used hold only 33% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"مهاراتك تصنع الفرق. اكتشفها مع SkillQuest.\" → 3 lines (6 words, 36px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\before\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

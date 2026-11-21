@@ -1,0 +1,488 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum UserRole {
+  ADMIN
+  STUDENT
+}
+
+enum AssessmentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum MissionStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum SessionStatus {
+  DRAFT
+  SCHEDULED
+  OPEN
+  CLOSED
+  ARCHIVED
+}
+
+enum NodeKind {
+  QUESTION
+  ENDING
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  COMPLETED
+}
+
+model User {
+  id                 String              @id @default(uuid()) @db.Uuid
+  email              String              @unique @db.VarChar(320)
+  passwordHash       String?             @db.Text
+  role               UserRole            @default(STUDENT)
+  createdSessions    AssessmentSession[] @relation("SessionCreator")
+  linkedParticipants Participant[]
+  adminSessions      AdminSession[]
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+}
+
+model Assessment {
+  id        String              @id @default(uuid()) @db.Uuid
+  slug      String              @unique @db.VarChar(80)
+  title     String              @db.VarChar(160)
+  status    AssessmentStatus    @default(DRAFT)
+  missions  Mission[]
+  sessions  AssessmentSession[]
+  createdAt DateTime            @default(now())
+  updatedAt DateTime            @updatedAt
+}
+
+model Mission {
+  id                 String         @id @default(uuid()) @db.Uuid
+  assessmentId       String         @db.Uuid
+  assessment         Assessment     @relation(fields: [assessmentId], references: [id], onDelete: Restrict)
+  position           Int
+  title              String         @db.VarChar(160)
+  description        String?        @db.Text
+  pedagogicalGoal    String?        @db.Text
+  targetCompetencies String?        @db.Text
+  estimatedDuration  Int?           @default(15)
+  status             MissionStatus  @default(PUBLISHED)
+  version            Int            @default(0)
+  editRevision       Int            @default(0)
+  draftGraph         Json?
+  nodes              ScenarioNode[]
+  versions           MissionVersion[]
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @default(now()) @updatedAt
+
+  @@unique([assessmentId, position])
+}
+
+model ScenarioNode {
+  id              String           @id @default(uuid()) @db.Uuid
+  missionId       String           @db.Uuid
+  graphVersion    Int              @default(1)
+  mission         Mission          @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  key             String           @db.VarChar(80)
+  kind            NodeKind
+  title           String           @db.VarChar(200)
+  story           String           @db.Text
+  question        String?          @db.Text
+  isStart         Boolean          @default(false)
+  posX            Float?           @default(0)
+  posY            Float?           @default(0)
+  choices         ScenarioChoice[] @relation("ChoiceSource")
+  incomingChoices ScenarioChoice[] @relation("ChoiceTarget")
+  currentAttempts Attempt[]        @relation("CurrentNode")
+  decisions       Decision[]
+
+  @@unique([missionId, graphVersion, key])
+  @@index([missionId, isStart])
+}
+
+model ScenarioChoice {
+  id           String         @id @default(uuid()) @db.Uuid
+  nodeId       String         @db.Uuid
+  nextNodeId   String         @db.Uuid
+  position     Int
+  label        String         @db.Text
+  sourceNode   ScenarioNode   @relation("ChoiceSource", fields: [nodeId], references: [id], onDelete: Cascade)
+  nextNode     ScenarioNode   @relation("ChoiceTarget", fields: [nextNodeId], references: [id], onDelete: Restrict)
+  impacts      ChoiceImpact[]
+  decisions    Decision[]
+
+  @@unique([nodeId, position])
+  @@index([nextNodeId])
+}
+
+model Competency {
+  id          String         @id @default(uuid()) @db.Uuid
+  slug        String         @unique @db.VarChar(80)
+  label       String         @db.VarChar(120)
+  description String?        @db.Text
+  impacts     ChoiceImpact[]
+}
+
+// Indicateurs bruts et interprétables, pas de diagnostic psychométrique.
+model ChoiceImpact {
+  choiceId     String         @db.Uuid
+  competencyId String         @db.Uuid
+  indicator    Int
+  choice       ScenarioChoice @relation(fields: [choiceId], references: [id], onDelete: Cascade)
+  competency   Competency     @relation(fields: [competencyId], references: [id], onDelete: Cascade)
+
+  @@id([choiceId, competencyId])
+}
+
+model AssessmentSession {
+  id              String        @id @default(uuid()) @db.Uuid
+  assessmentId    String?       @db.Uuid
+  createdById     String        @db.Uuid
+  label           String        @db.VarChar(160)
+  description     String?       @db.Text
+  codeHash        String        @unique @db.Char(64)
+  codeCipher      String?       @db.Text
+  maxParticipants Int?
+  status          SessionStatus @default(DRAFT)
+  opensAt         DateTime?
+  closesAt        DateTime?
+  assessment      Assessment?   @relation(fields: [assessmentId], references: [id], onDelete: Restrict)
+  createdBy       User          @relation("SessionCreator", fields: [createdById], references: [id], onDelete: Restrict)
+  participants    Participant[]
+  adaptiveInterviews AdaptiveInterview[]
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([assessmentId, status])
+}
+
+model Participant {
+  id             String            @id @default(uuid()) @db.Uuid
+  sessionId      String            @db.Uuid
+  userId         String?           @db.Uuid
+  publicId       String            @unique @db.VarChar(20)
+  displayName    String            @db.VarChar(100)
+  guestTokenHash String            @unique @db.Char(64)
+  tokenExpiresAt DateTime          @default(dbgenerated("(CURRENT_TIMESTAMP + interval '7 days')"))
+  revokedAt      DateTime?
+  session        AssessmentSession @relation(fields: [sessionId], references: [id], onDelete: Restrict)
+  user           User?             @relation(fields: [userId], references: [id], onDelete: SetNull)
+  attempt        Attempt?
+  createdAt      DateTime          @default(now())
+
+  @@index([sessionId])
+  @@index([userId])
+}
+
+model Attempt {
+  id             String        @id @default(uuid()) @db.Uuid
+  participantId  String        @unique @db.Uuid
+  currentNodeId  String        @db.Uuid
+  missionVersion Int?          @default(1)
+  status         AttemptStatus @default(IN_PROGRESS)
+  participant    Participant   @relation(fields: [participantId], references: [id], onDelete: Restrict)
+  currentNode    ScenarioNode  @relation("CurrentNode", fields: [currentNodeId], references: [id], onDelete: Restrict)
+  decisions      Decision[]
+  startedAt      DateTime      @default(now())
+  completedAt    DateTime?
+}
+
+model Decision {
+  id             String         @id @default(uuid()) @db.Uuid
+  attemptId      String         @db.Uuid
+  nodeId         String         @db.Uuid
+  choiceId       String         @db.Uuid
+  impactSnapshot Json?
+  contextSnapshot Json?
+  attempt        Attempt        @relation(fields: [attemptId], references: [id], onDelete: Restrict)
+  node           ScenarioNode   @relation(fields: [nodeId], references: [id], onDelete: Restrict)
+  choice         ScenarioChoice @relation(fields: [choiceId], references: [id], onDelete: Restrict)
+  createdAt      DateTime       @default(now())
+
+  @@unique([attemptId, nodeId])
+  @@index([choiceId])
+}
+
+model MissionVersion {
+  id                 String   @id @default(uuid()) @db.Uuid
+  missionId          String   @db.Uuid
+  mission            Mission  @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  version            Int
+  title              String   @db.VarChar(160)
+  description        String?  @db.Text
+  pedagogicalGoal    String?  @db.Text
+  targetCompetencies String?  @db.Text
+  estimatedDuration  Int?     @default(15)
+  graphSnapshot      Json
+  changelog          String?  @db.Text
+  publishedAt        DateTime @default(now())
+
+  @@unique([missionId, version])
+  @@index([missionId])
+}
+
+model AdminSession {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  tokenHash String   @unique @db.Char(64)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+// Independent, opt-in AI interview. Historical scenario attempts remain unchanged.
+model AdaptiveInterview {
+  id          String   @id @default(uuid()) @db.Uuid
+  tokenHash   String   @unique @db.Char(64)
+  displayName String   @db.VarChar(100)
+  email       String?  @db.VarChar(254)
+  emailIdentity String? @unique @db.VarChar(254)
+  emailVerifiedAt DateTime?
+  lastTestStartedAt DateTime @default(now())
+  retakeCodeHash String? @db.Char(64)
+  retakeCodeExpiresAt DateTime?
+  retakeCodeSentAt DateTime?
+  retakeCodeAttempts Int @default(0)
+  previousResult Json?
+  reportEmailRequested Boolean @default(false)
+  state       Json
+  revision    Int      @default(0)
+  busyUntil   DateTime?
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  sessionId   String?  @db.Uuid
+  session     AssessmentSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+  reportJob   AdaptiveReportJob?
+  otpDeliveries OtpDeliveryJob[]
+
+  @@index([expiresAt])
+  @@index([email])
+  @@index([sessionId])
+}
+
+model AdaptiveReportJob {
+  id             String            @id @default(uuid()) @db.Uuid
+  interviewId    String            @unique @db.Uuid
+  interview      AdaptiveInterview @relation(fields: [interviewId], references: [id], onDelete: Cascade)
+  status         String            @default("PENDING") @db.VarChar(20)
+  summary        String?           @db.Text
+  attempts       Int               @default(0)
+  nextAttemptAt  DateTime          @default(now())
+  leaseUntil     DateTime?
+  lastErrorCode  String?           @db.VarChar(80)
+  emailStatus    String            @default("NOT_REQUESTED") @db.VarChar(20)
+  emailAttempts  Int               @default(0)
+  emailNextAttemptAt DateTime      @default(now())
+  emailLeaseUntil DateTime?
+  emailAttemptWindowAt DateTime?
+  emailAcceptedAt DateTime?
+  emailMessageId String?           @db.VarChar(512)
+  emailLastErrorCode String?        @db.VarChar(80)
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  @@index([status, nextAttemptAt])
+  @@index([emailStatus, emailNextAttemptAt])
+}
+
+// Checks, eligibility views and atomic transition triggers live in the additive
+// migration. The publisher uses raw SQL; no generated-client update is needed.
+model JobPublicationIntent {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  kind           String   @db.VarChar(20)
+  jobId          String   @db.Uuid
+  phase          String   @db.VarChar(10)
+  generation     Int
+  dueAt          DateTime @db.Timestamp(3)
+  state          String   @default("PENDING") @db.VarChar(12)
+  attempts       Int      @default(0)
+  nextAttemptAt  DateTime @db.Timestamp(3)
+  leaseUntil     DateTime? @db.Timestamp(3)
+  attemptToken   String?  @db.Uuid
+  lastErrorCode  String?  @db.VarChar(40)
+  publishedAt    DateTime? @db.Timestamp(3)
+  createdAt      DateTime @default(dbgenerated("(clock_timestamp() AT TIME ZONE 'UTC'::text)")) @db.Timestamp(3)
+  retentionObservedAt DateTime? @db.Timestamp(3)
+
+  @@unique([kind, jobId, phase, generation, dueAt])
+  @@index([state, nextAttemptAt, id], map: "JobPublicationIntent_due_idx")
+  @@index([kind, jobId], map: "JobPublicationIntent_job_idx")
+}
+
+model AdaptiveDailyUsage {
+  day      String @id @db.VarChar(10)
+  requests Int    @default(0)
+}
+
+
+// Lot 1: dormant additive foundation. No link to participant records or runtime flows.
+model ProxyRequestNonce {
+  nonce String @id @db.Uuid
+  expiresAt DateTime
+  @@index([expiresAt])
+}
+
+model EmailOtpChallenge {
+  id String @id @default(uuid()) @db.Uuid
+  identityHash String @db.Char(64)
+  purpose String @db.VarChar(20)
+  codeHash String @db.Char(64)
+  expiresAt DateTime
+  consumedAt DateTime?
+  attempts Int @default(0)
+  maxAttempts Int @default(5)
+  createdAt DateTime @default(now())
+  gates ParticipantEmailGate[]
+  delivery ParticipantEmailDeliveryJob?
+  @@index([identityHash, purpose, expiresAt])
+}
+
+model EmailAbuseCounter {
+  scope String @db.VarChar(20)
+  subjectHash String @db.Char(64)
+  metric String @db.VarChar(20)
+  windowStart DateTime
+  expiresAt DateTime
+  count Int @default(0)
+  @@id([scope, subjectHash, metric, windowStart])
+  @@index([expiresAt])
+}
+
+model EmailBudgetReservation {
+  id String @id @default(uuid()) @db.Uuid
+  logicalKey String @unique @db.VarChar(160)
+  provider String @default("BREVO") @db.VarChar(20)
+  purpose String @db.VarChar(20)
+  budgetWindowStart DateTime
+  units Int @default(1)
+  status String @default("RESERVED") @db.VarChar(20)
+  idempotencyKey String @unique @db.Uuid
+  requestHash String @db.Char(64)
+  providerAttemptedAt DateTime?
+  retrySafeUntil DateTime?
+  leaseUntil DateTime?
+  attemptToken String? @db.Uuid
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  @@index([provider, budgetWindowStart, status])
+  @@index([expiresAt])
+}
+
+model EmailProviderState {
+  provider String @id @db.VarChar(20)
+  blockedUntil DateTime?
+  reasonCode String? @db.VarChar(80)
+  revision Int @default(0)
+  updatedAt DateTime @default(now())
+}
+
+model EmailOtpThrottle {
+  identityHash String @id @db.Char(64)
+  nextSendAt DateTime
+}
+
+model OtpDeliveryJob {
+  id String @id @default(uuid()) @db.Uuid
+  interviewId String @db.Uuid
+  interview AdaptiveInterview @relation(fields: [interviewId], references: [id], onDelete: Cascade)
+  codeHash String @db.Char(64)
+  encryptedPayload String? @db.Text
+  status String @default("PENDING") @db.VarChar(20)
+  attempts Int @default(0)
+  expiresAt DateTime
+  nextAttemptAt DateTime?
+  leaseUntil DateTime?
+  attemptToken String? @db.Uuid
+  lastErrorCode String? @db.VarChar(80)
+  createdAt DateTime @default(now())
+  @@index([interviewId, codeHash, createdAt])
+  @@index([status, nextAttemptAt])
+  @@index([expiresAt])
+}
+
+model ParticipantEmailGate {
+  identityHash String @id @db.Char(64)
+  challengeId String? @db.Uuid
+  challenge EmailOtpChallenge? @relation(fields: [challengeId], references: [id], onDelete: SetNull)
+  nextIssueAt DateTime
+}
+
+model ParticipantEmailDeliveryJob {
+  id String @id @default(uuid()) @db.Uuid
+  challengeId String @unique @db.Uuid
+  challenge EmailOtpChallenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+  codeHash String @db.Char(64)
+  encryptedPayload String? @db.Text
+  status String @default("PENDING") @db.VarChar(20)
+  attempts Int @default(0)
+  expiresAt DateTime
+  nextAttemptAt DateTime?
+  leaseUntil DateTime?
+  attemptToken String? @db.Uuid
+  lastErrorCode String? @db.VarChar(80)
+  createdAt DateTime @default(now())
+  @@index([status, nextAttemptAt])
+  @@index([expiresAt])
+}
+
+// SQL-managed maintenance admission metadata; runtime uses raw SQL so no
+// generated-client replacement is required for this additive local step.
+model MaintenanceRun {
+  id           String @id @db.Uuid
+  task         String @db.VarChar(12)
+  attemptToken String @unique @db.Uuid
+  state        String @db.VarChar(12)
+  startedAt    DateTime @default(dbgenerated("(clock_timestamp() AT TIME ZONE 'UTC'::text)")) @db.Timestamp(3)
+  finishedAt   DateTime? @db.Timestamp(3)
+  stopCode     String? @db.VarChar(24)
+  leases       MaintenanceLease[]
+  @@index([task, startedAt], map: "MaintenanceRun_task_started_idx")
+}
+
+model MaintenanceTask {
+  task          String @id @db.VarChar(12)
+  nextAllowedAt DateTime @default(dbgenerated("(clock_timestamp() AT TIME ZONE 'UTC'::text)")) @db.Timestamp(3)
+}
+
+model MaintenanceLease {
+  name         String @id @db.VarChar(16)
+  runId        String? @db.Uuid
+  attemptToken String? @db.Uuid
+  leaseUntil   DateTime? @db.Timestamp(3)
+  run          MaintenanceRun? @relation(fields: [runId], references: [id], onDelete: Restrict)
+}
+
+// Permanent minimal UUID evidence; SQL rejects UPDATE/DELETE. Partial retention
+// indexes and observation invalidation are defined by the additive migration.
+model MaintenanceReplayReceipt {
+  id        String @id @db.Uuid
+  retiredAt DateTime @default(dbgenerated("(clock_timestamp() AT TIME ZONE 'UTC'::text)")) @db.Timestamp(3)
+}
+
+// Durable dispatch admission/fairness; constraints and JobLifetime view are SQL-managed.
+model JobDispatchState {
+  singleton Int @id
+  cursor Int @default(0)
+  attemptToken String? @db.Uuid
+  leaseUntil DateTime? @db.Timestamp(3)
+  nextAllowedAt DateTime @default(dbgenerated("(clock_timestamp() AT TIME ZONE 'UTC'::text)")) @db.Timestamp(3)
+}
+
+model JobDispatchUsage {
+  day DateTime @id @db.Date
+  attempts Int
+}

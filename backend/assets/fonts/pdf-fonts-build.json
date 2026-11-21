@@ -1,0 +1,26 @@
+{
+  "source": "NotoSansArabic.ttf",
+  "sourceSHA256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+  "fontTools": "4.68.0",
+  "license": "OFL.txt",
+  "outputs": [
+    {
+      "file": "SkillQuestArabicPDF-Regular.ttf",
+      "axes": {
+        "wght": 400,
+        "wdth": 100.0
+      },
+      "bytes": 194588,
+      "sha256": "897f02c256d1ff1b7e94aa99e9bd1fc73ab80c3c08f7c2543335b0db6b09d3ae"
+    },
+    {
+      "file": "SkillQuestArabicPDF-Bold.ttf",
+      "axes": {
+        "wght": 700,
+        "wdth": 100.0
+      },
+      "bytes": 194764,
+      "sha256": "460421781700369e662faac39473d876b28348132e7017b24858ff14ae55415a"
+    }
+  ]
+}

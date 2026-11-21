@@ -1,0 +1,1754 @@
+{
+ "url": "node_modules/.skillquest-local/admin-v2-qa/admin-participant-rendered.html",
+ "at": "2026-10-29T18:29:34.776Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.3,
+    0.59,
+    0.76,
+    0.74,
+    0.72
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3710,
+     "screens": 4.1,
+     "words": 304,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "ZggfSgAAAAZJREFUAwAVCCgF8oHHXgAAAABJRU5ErkJggg==",
+      "ZggfSgAAAAZJREFUAwAVCCgF8oHHXgAAAABJRU5ErkJggg=="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 173,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "lines": 1,
+     "size": 28,
+     "font": "Outfit"
+    },
+    "headings": [
+     {
+      "text": "Amine navigateur",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Outfit",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 173,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      28
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 14,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 132,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "Outfit",
+      "text": "Amine navigateur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 115
+    },
+    "eyebrows": [
+     {
+      "text": "Retour aux participants",
+      "above": "Amine navigateur",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 113
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#edf5f9",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 80,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.95
+      },
+      {
+       "color": "#526877",
+       "share": 0.04
+      },
+      {
+       "color": "#d9e9f2",
+       "share": 0
+      },
+      {
+       "color": "#b6d2e4",
+       "share": 0
+      },
+      {
+       "color": "#073e65",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#edf5f9",
+      "hsl": {
+       "h": 200,
+       "s": 0.5,
+       "l": 0.95
+      },
+      "fg": "#012754"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 8,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Participants",
+      "Imprimer / Enregistrer en PDF"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 60,
+     "hairlineSamples": [
+      "div.ad-detail-tabs.print:hidden 1110px",
+      "p.ad-disclaimer 791px",
+      "div 514px",
+      "article.ad-skill 1108px",
+      "div 514px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 9,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3710,
+    "margins": {
+     "left": 289,
+     "right": 57
+    },
+    "sections": [
+     {
+      "sel": "section.ad-participant-info.print:hidden",
+      "tag": "section",
+      "top": 310,
+      "height": 170,
+      "words": 33,
+      "media": 0,
+      "middle": 155,
+      "heading": null,
+      "left": 314,
+      "right": 167,
+      "textLeft": 314,
+      "textRight": 167,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article.ad-report-summary",
+      "tag": "article",
+      "top": 621,
+      "height": 366,
+      "words": 60,
+      "media": 1,
+      "middle": 144,
+      "heading": {
+       "text": "Rapport de soft skills",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 322,
+      "right": 74,
+      "textLeft": 322,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-communicate.ad-report-family",
+      "tag": "section",
+      "top": 1087,
+      "height": 559,
+      "words": 619,
+      "media": 0,
+      "middle": 75,
+      "heading": {
+       "text": "Communiquer",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 41,
+      "textLeft": 289,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-think.ad-report-family",
+      "tag": "section",
+      "top": 1678,
+      "height": 632,
+      "words": 752,
+      "media": 0,
+      "middle": 57,
+      "heading": {
+       "text": "Réfléchir",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 41,
+      "textLeft": 289,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-cooperate.ad-report-family",
+      "tag": "section",
+      "top": 2341,
+      "height": 486,
+      "words": 513,
+      "media": 0,
+      "middle": 61,
+      "heading": {
+       "text": "Coopérer",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 41,
+      "textLeft": 289,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-act.ad-report-family",
+      "tag": "section",
+      "top": 2859,
+      "height": 778,
+      "words": 1003,
+      "media": 0,
+      "middle": 58,
+      "heading": {
+       "text": "Agir",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 41,
+      "textLeft": 289,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Amine navigateur",
+      "size": 28,
+      "top": 173,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 314,
+      "n": 73
+     },
+     {
+      "x": 885,
+      "n": 46
+     },
+     {
+      "x": 289,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 124,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 660,
+     "y": 540,
+     "w": 540,
+     "h": 300
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": {
+     "w": 248,
+     "tag": "aside",
+     "links": 6,
+     "share": 0.17
+    },
+    "topbar": {
+     "h": 80
+    },
+    "canvas": {
+     "left": 41,
+     "right": 58
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 28,
+     "vw": 1.9,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 173,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 2,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 37,
+     "radii": [
+      [
+       0,
+       30
+      ],
+      [
+       16,
+       7
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.13,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      28
+     ]
+    },
+    "title": {
+     "text": "Amine navigateur",
+     "size": 28,
+     "top": 173
+    },
+    "colourShare": 0.014
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.33,
+    0.59,
+    0.73,
+    0.76
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3765,
+     "screens": 3.7,
+     "words": 288,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "ZggfSgAAAAZJREFUAwAVCCgF8oHHXgAAAABJRU5ErkJggg=="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 165,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "lines": 1,
+     "size": 28,
+     "font": "Outfit"
+    },
+    "headings": [
+     {
+      "text": "Amine navigateur",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Outfit",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 165,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      28
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 14,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 106,
+     "max": {
+      "size": 28,
+      "vw": 3.6,
+      "font": "Outfit",
+      "text": "Amine navigateur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 113
+    },
+    "eyebrows": [
+     {
+      "text": "Retour aux participants",
+      "above": "Amine navigateur",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 105
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#edf5f9",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 80,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.95
+      },
+      {
+       "color": "#526877",
+       "share": 0.04
+      },
+      {
+       "color": "#073e65",
+       "share": 0
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      },
+      {
+       "color": "#012754",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#146b27",
+      "hsl": {
+       "h": 133,
+       "s": 0.69,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 8,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Imprimer / Enregistrer en PDF"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 60,
+     "hairlineSamples": [
+      "div.ad-detail-tabs.print:hidden 702px",
+      "p.ad-disclaimer 636px",
+      "div 310px",
+      "article.ad-skill 700px",
+      "div 310px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3765,
+    "margins": {
+     "left": 33,
+     "right": 50
+    },
+    "sections": [
+     {
+      "sel": "section.ad-participant-info.print:hidden",
+      "tag": "section",
+      "top": 294,
+      "height": 189,
+      "words": 33,
+      "media": 0,
+      "middle": 53,
+      "heading": null,
+      "left": 58,
+      "right": 94,
+      "textLeft": 58,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article.ad-report-summary",
+      "tag": "article",
+      "top": 624,
+      "height": 366,
+      "words": 60,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Rapport de soft skills",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 66,
+      "right": 66,
+      "textLeft": 66,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-communicate.ad-report-family",
+      "tag": "section",
+      "top": 1150,
+      "height": 559,
+      "words": 593,
+      "media": 0,
+      "middle": 56,
+      "heading": {
+       "text": "Communiquer",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-think.ad-report-family",
+      "tag": "section",
+      "top": 1741,
+      "height": 632,
+      "words": 726,
+      "media": 0,
+      "middle": 55,
+      "heading": {
+       "text": "Réfléchir",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-cooperate.ad-report-family",
+      "tag": "section",
+      "top": 2405,
+      "height": 486,
+      "words": 489,
+      "media": 0,
+      "middle": 58,
+      "heading": {
+       "text": "Coopérer",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-act.ad-report-family",
+      "tag": "section",
+      "top": 2922,
+      "height": 778,
+      "words": 971,
+      "media": 0,
+      "middle": 59,
+      "heading": {
+       "text": "Agir",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Amine navigateur",
+      "size": 28,
+      "top": 165,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 73
+     },
+     {
+      "x": 425,
+      "n": 42
+     },
+     {
+      "x": 33,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 120,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 80
+    },
+    "canvas": {
+     "left": 33,
+     "right": 56
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 165,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 0,
+     "firstScreen": 0,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 35,
+     "radii": [
+      [
+       0,
+       28
+      ],
+      [
+       16,
+       7
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.13,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      28
+     ]
+    },
+    "title": {
+     "text": "Amine navigateur",
+     "size": 28,
+     "top": 165
+    },
+    "colourShare": 0.013
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.43,
+    0.55,
+    0.83,
+    0.83,
+    0.84
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3966,
+     "screens": 4.7,
+     "words": 284,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "ZggfSgAAAAZJREFUAwAVCCgF8oHHXgAAAABJRU5ErkJggg=="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 154,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "lines": 1,
+     "size": 24,
+     "font": "Outfit"
+    },
+    "headings": [
+     {
+      "text": "Amine navigateur",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Outfit",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 154,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Rapport de soft skills",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Outfit",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 947,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Outfit",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      20,
+      22,
+      24
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 14,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 24,
+      "vw": 6.2,
+      "font": "Outfit",
+      "text": "Amine navigateur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 121
+    },
+    "eyebrows": [
+     {
+      "text": "Retour aux participants",
+      "above": "Amine navigateur",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 94
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#edf5f9",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.5,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 70,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#123348",
+       "share": 0.95
+      },
+      {
+       "color": "#526877",
+       "share": 0.04
+      },
+      {
+       "color": "#073e65",
+       "share": 0
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      },
+      {
+       "color": "#012754",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#146b27",
+      "hsl": {
+       "h": 133,
+       "s": 0.69,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 8,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Imprimer / Enregistrer en PDF"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 29,
+     "hairlineSamples": [
+      "div.ad-detail-tabs.print:hidden 350px",
+      "p.ad-disclaimer 308px",
+      "article.ad-skill 348px",
+      "article.ad-skill 348px",
+      "article.ad-skill 348px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "outfit",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3966,
+    "margins": {
+     "left": 20,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section.ad-participant-info.print:hidden",
+      "tag": "section",
+      "top": 336,
+      "height": 319,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 41,
+      "right": 80,
+      "textLeft": 41,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article.ad-report-summary",
+      "tag": "article",
+      "top": 814,
+      "height": 405,
+      "words": 60,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Rapport de soft skills",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 41,
+      "textLeft": 41,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-communicate.ad-report-family",
+      "tag": "section",
+      "top": 1371,
+      "height": 556,
+      "words": 325,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Communiquer",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-think.ad-report-family",
+      "tag": "section",
+      "top": 1959,
+      "height": 629,
+      "words": 460,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Réfléchir",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-cooperate.ad-report-family",
+      "tag": "section",
+      "top": 2620,
+      "height": 483,
+      "words": 237,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Coopérer",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#family-act.ad-report-family",
+      "tag": "section",
+      "top": 3135,
+      "height": 775,
+      "words": 661,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Agir",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Amine navigateur",
+      "size": 24,
+      "top": 154,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 37,
+      "n": 83
+     },
+     {
+      "x": 20,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 88,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#ffffff",
+    "sidebar": null,
+    "topbar": {
+     "h": 70
+    },
+    "canvas": {
+     "left": 20,
+     "right": 36
+    },
+    "hero": {
+     "text": "Amine navigateur",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Outfit",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 154,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 6,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 34,
+     "radii": [
+      [
+       0,
+       28
+      ],
+      [
+       8,
+       6
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 1,
+     "tabularShare": 0,
+     "kpiMax": 11
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.13,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      22,
+      24
+     ]
+    },
+    "title": {
+     "text": "Amine navigateur",
+     "size": 24,
+     "top": 154
+    },
+    "colourShare": 0.027
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\desktop-page-01.jpg",
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\pc\\Downloads\\skillquest-corrige\\skillquest-starter\\.taste-skill\\admin-v2\\final-report\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+"use client";
+import Link from 'next/link';
+import { ArrowUpRight, Trash2 } from 'lucide-react';
+import type { AdminAdaptiveParticipant } from '@/lib/adaptive-admin-types';
+import { adminContent as c, adminDate, AdminLanguage } from '@/lib/admin-content';
+import { AIStatus } from './adaptive-ui';
+export function DataTable({ rows, lang, selected, onSelect, onSelectAll, onDelete, deleting = false }: {
+    rows: AdminAdaptiveParticipant[];
+    lang: AdminLanguage;
+    selected: Set<string>;
+    onSelect: (id: string) => void;
+    onSelectAll: () => void;
+    onDelete: (participant: AdminAdaptiveParticipant) => void;
+    deleting?: boolean;
+}) { return <div className="ad-table-scroll" role="region" aria-label={c.tableCaption[lang]} tabIndex={0}><table className="ad-data-table"><caption className="sr-only">{c.tableCaption[lang]}</caption><thead><tr><th scope="col" className="ad-select-column"><label className="ad-check-target"><input type="checkbox" aria-label={c.selectAll[lang]} checked={rows.length > 0 && rows.every(r => selected.has(r.id))} onChange={onSelectAll}/></label></th><th scope="col">{c.identity[lang]}</th><th scope="col" className="ad-number">{c.progress[lang]}</th><th scope="col">{c.report[lang]}</th><th scope="col">{c.created[lang]}</th><th scope="col"><span className="sr-only">{c.actions[lang]}</span></th></tr></thead><tbody>{rows.map(p => <tr key={p.id} data-participant-row aria-selected={selected.has(p.id)}><td className="ad-select-column"><label className="ad-check-target"><span className="sr-only">{c.select[lang]} {p.displayName}</span><input type="checkbox" checked={selected.has(p.id)} onChange={() => onSelect(p.id)}/></label></td><th scope="row" className="ad-participant-identity"><Link href={`/admin/participants/${p.id}`}><span className="ad-avatar" aria-hidden="true">{p.displayName.slice(0, 2).toUpperCase()}</span><span><strong>{p.displayName}</strong><span className="ad-email" dir="ltr">{p.email || '—'}</span><span className="ad-mobile-meta">{(p.language === 'ar' ? c.arabic : c.french)[lang]} · {adminDate(p.createdAt, lang)}</span></span></Link></th><td className="ad-number" data-label={c.progress[lang]}><strong className="ad-tabular">{p.answeredCount}<span className="ad-muted">/31</span></strong><span className="ad-cell-sub">{(p.status === 'COMPLETED' ? c.finished : c.inProgress)[lang]}</span></td><td className="ad-report-cell" data-label={c.report[lang]}><AIStatus participant={p} ar={lang === 'ar'}/></td><td className="ad-created-cell"><span>{adminDate(p.createdAt, lang)}</span><span className="ad-cell-sub">{(p.language === 'ar' ? c.arabic : c.french)[lang]}</span></td><td className="ad-row-action"><div className="ad-row-actions"><Link href={`/admin/participants/${p.id}`} aria-label={`${c.openReport[lang]} — ${p.displayName}`}><ArrowUpRight size={18} className="ad-direction" aria-hidden="true"/></Link><button type="button" className="ad-delete-button" onClick={() => onDelete(p)} disabled={deleting} aria-label={`${c.deleteParticipant[lang]} : ${p.displayName}`} title={c.deleteParticipant[lang]}><Trash2 size={18} aria-hidden="true"/></button></div></td></tr>)}</tbody></table></div>; }

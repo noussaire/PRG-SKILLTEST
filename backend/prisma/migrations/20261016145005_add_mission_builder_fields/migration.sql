@@ -1,0 +1,16 @@
+-- CreateEnum
+CREATE TYPE "MissionStatus" AS ENUM ('DRAFT', 'PUBLISHED', 'ARCHIVED');
+
+-- AlterTable
+ALTER TABLE "Mission" ADD COLUMN     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "description" TEXT,
+ADD COLUMN     "estimatedDuration" INTEGER DEFAULT 15,
+ADD COLUMN     "pedagogicalGoal" TEXT,
+ADD COLUMN     "status" "MissionStatus" NOT NULL DEFAULT 'PUBLISHED',
+ADD COLUMN     "targetCompetencies" TEXT,
+ADD COLUMN     "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "version" INTEGER NOT NULL DEFAULT 1;
+
+-- AlterTable
+ALTER TABLE "ScenarioNode" ADD COLUMN     "posX" DOUBLE PRECISION DEFAULT 0,
+ADD COLUMN     "posY" DOUBLE PRECISION DEFAULT 0;

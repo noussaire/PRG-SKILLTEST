@@ -1,0 +1,96 @@
+{
+  "target": "20261105000100_report_fallback_email",
+  "expectedHost": "ep-wispy-paper-bazujx4k.c-8.eu-central-1.aws.neon.tech",
+  "database": "neondb",
+  "role": "neondb_owner",
+  "baseline": [
+    {
+      "name": "20261016112800_init",
+      "sha256": "0b99c8158faa60da5f08249361cd752ba7a6a036ed955dab3d9ab130f5445966"
+    },
+    {
+      "name": "20261016115655_add_admin_session",
+      "sha256": "a506f608b580bf2a6269bfc5dd7960e3df8511da0c4f2ebef677ac4e20c01ef1"
+    },
+    {
+      "name": "20261016131249_add_session_fields",
+      "sha256": "c4a85f793dcf5d8ff135c5d6efc7b222876ff283c6d6bb4ccd539a28bbff7628"
+    },
+    {
+      "name": "20261016145005_add_mission_builder_fields",
+      "sha256": "640562575d58e68331734abe514370771d105b772efe7f996825647885b47c2f"
+    },
+    {
+      "name": "20261026010000_reliable_assessment",
+      "sha256": "19930bfb194d7653c4c3066fd3b620bf8deb3e323591a8b424f3d21376913455"
+    },
+    {
+      "name": "20261028010000_adaptive_interviews",
+      "sha256": "889e156cd7d39d7efd6b7c1cf1f1706717a5d873ab8cd7e604a158c80ecd11b5"
+    },
+    {
+      "name": "20261028020000_prepared_report_queue",
+      "sha256": "327d946c24b840a78b3cf90c47737d8469dd5698a86ccdbdbd1861e9cac012d1"
+    },
+    {
+      "name": "20261029010000_adaptive_participant_email",
+      "sha256": "648a9a1f1c96082f6cb513830d3296fd00542295c6422144790602f7cef9f1e0"
+    },
+    {
+      "name": "20261029020000_report_email",
+      "sha256": "9f9382a96bee7b3270b05b8c2053659e83b0522ff6d2de0b8feefef7a1f0ec8d"
+    },
+    {
+      "name": "20261029030000_participant_retake",
+      "sha256": "2286715d7bc9465312861ada03e77211cf89b8d2cb184aa9a411b1995f623a3c"
+    },
+    {
+      "name": "20261030010000_email_security_foundation",
+      "sha256": "6840c0921569bbb56f81c90d867a1dbf987963664ee40bc189757a7ecda1d5a8"
+    },
+    {
+      "name": "20261030020000_email_budget_fencing",
+      "sha256": "62b92278c4dade6b7ae499a9618d146345b95e22bfbf355506d480c55222ee01"
+    },
+    {
+      "name": "20261030030000_otp_delivery_outbox",
+      "sha256": "b7c9f04392e93cb30256bc2fc3406c5aca40aae8052bb8091f97984e9c7637b8"
+    },
+    {
+      "name": "20261030040000_initial_email_gate",
+      "sha256": "23b983b52ff3a216305da19dd331299fd2e9623c8cabe256a9398e6a2eb7ea48"
+    },
+    {
+      "name": "20261031010000_proxy_request_nonce",
+      "sha256": "81e9b39a678ab2647333bb35747f2e947327098ef5d9dbf2e0fda2dce99b5647"
+    },
+    {
+      "name": "20261031020000_job_publication_intents",
+      "sha256": "15e23c3a05fe4e14090765bdf59e74c2bf69a9a460ba68fc741ebee892cff3d5"
+    },
+    {
+      "name": "20261031030000_maintenance_invocations",
+      "sha256": "3742dd186671f486affd867580a5fdbbc5fc66f2b94b767c3a84ec0fb8c9f0d6"
+    },
+    {
+      "name": "20261031040000_technical_retention",
+      "sha256": "cd6f1bfee897ce23a8e91201b1c5655078767c024e51313be92729991efaea8d"
+    },
+    {
+      "name": "20261102000100_synthetic_staging",
+      "sha256": "a2e9d7af6615d4e70c3b97f31dc4624137bf9ba86c41ff956872d80ffcf7cf89"
+    },
+    {
+      "name": "20261103010000_session_adaptive_link",
+      "sha256": "cff1499e8fc84673d1dd4a3d117d63c4f6d5573d9dbd1e2a1a97bb50c5e8420e"
+    },
+    {
+      "name": "20261105020000_session_assessment_optional",
+      "sha256": "3aa9bcbfa355574d8337895c53c21df2cca0b2d83f079d4f0ac6d1dd6e7c7c03"
+    }
+  ],
+  "migration": {
+    "name": "20261105000100_report_fallback_email",
+    "sha256": "e8153936ba0ea683a4cc0910695c7aa5e993d8d1080113e0c6ec252267d838c9"
+  }
+}
